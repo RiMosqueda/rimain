@@ -7,7 +7,7 @@ require 'conexion.php';
 $nombre = 'Ricardo Mosqueda';
 $correo = 'desarrollo2@lc-software.com';
 $clave_plana = 'worker123'; // Puedes cambiar esta contraseña
-$rol = 'trabajador'; // o 'trabajador'
+$rol = 'trabajador'; // 'admin' o 'trabajador'
 
 $clave_hash = password_hash($clave_plana, PASSWORD_DEFAULT);
 
